@@ -74,7 +74,7 @@ li#bar2{
 header#bar {
     position: fixed;
     border: 1px black;
-    width:100%;
+    width:99%;
     z-index: 10;
     background-color: white;
     opacity: 95%;
@@ -85,7 +85,7 @@ header#bar {
 header#pass {
     position: fixed;
     border: 1px black;
-    width:100%;
+    width:99%;
     z-index: 10;
     background-image: linear-gradient(to top, greenyellow, rgb(97, 97, 97));
     opacity: 95%;
@@ -96,7 +96,7 @@ header#pass {
 header#teammembers {
     position: fixed;
     border: 1px black;
-    width:100%;
+    width:99%;
     z-index: 10;
     background-color: grey;
     opacity: 95%;
