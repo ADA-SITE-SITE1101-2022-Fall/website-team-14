@@ -5,7 +5,7 @@
 }
 body{
   position:relative;
-  background-color: rgb(97,97,97);
+  background-color: rgb(12,12,44);
 }
 ul{
   margin-left: 0 auto;
@@ -40,6 +40,7 @@ video{
   width: 50%;
   position:absolute;
   right: 0;
+  top: -60px;  
 }
 
 a#bar:link, a#bar:visited {
@@ -54,7 +55,7 @@ a#bar:link, a#bar:visited {
 
 a#bar:hover, a#bar:active {
   background-color: greenyellow;
-  color: white;
+  color: black;
 }
 
 a:link {
@@ -81,3 +82,15 @@ p#footer{
   background-color: white;
   margin-bottom: 0;
 }
+
+img#logo{
+  height:50px;
+  width: auto;
+  top: 10px;
+  position: absolute;
+ }
+
+ #logo2{
+  width: 1500px;
+  height:auto;
+ }
