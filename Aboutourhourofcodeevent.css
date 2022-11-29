@@ -4,7 +4,7 @@
 }
 body{
     position: relative;
-    background-image: linear-gradient(to top left, greenyellow, rgb(97,97,97));
+    background-image: linear-gradient(to top left, greenyellow, rgb(12,12,44));
 }
 ul{
   margin-left: 0 auto;
@@ -57,8 +57,8 @@ a#bar:link, a#bar:visited {
   }
   a#bar2:link, a#bar2:visited {
       background-color: greenyellow;
-      color: black;
-      border: 2px solid black;
+      color: rgb(12,12,44);
+      border: 2px solid rgb(12,12,44);
       padding: 10px 20px;
       text-align: center;
       text-decoration: none;
@@ -66,7 +66,7 @@ a#bar:link, a#bar:visited {
     }
     
     a#bar2:hover, a#bar2:active {
-      background-color: black;
+      background-color: rgb(12,12,44);
       color: white;
     }
   #left{
@@ -84,30 +84,31 @@ a#bar:link, a#bar:visited {
   }
 
   
-  a:link {
-    color: black;
+  a#footer:link {
+    color: yellowgreen;
   }
   
-  a:visited {
-    color: black;
+  a#footer:visited {
+    color: yellowgreen;
   }
   
-  a:hover {
-    color: rgb(97,97,97);
+  a#footer:hover {
+    color: yellow;
   }
   
-  a:active {
-    color: rgb(97,97,97);
+  a#footer:active {
+    color: yellow;
   }
   
   div#footer{
-    background-color: greenyellow;
+    background-color: rgb(12,12,44);
+    color: yellowgreen
   }
   p#footer{
     height: 5px;
     background-color: white;
     margin-bottom: 0;
-    color:black;
+    color:yellowgreen;
   }
   
   h2{
@@ -115,6 +116,7 @@ a#bar:link, a#bar:visited {
   }
   h3{
     font-size:x-large;
+    color:#FFF;
   }
   body p{
     font-size: larger;
@@ -171,3 +173,15 @@ a#bar:link, a#bar:visited {
   a#link:link, a#link:visited, a#link:hover, a#link:active {
     color: white;
   }
+
+  img#logo{
+    height:50px;
+    width: auto;
+    top: 10px;
+    position: absolute;
+   }
+
+   /*img#Contribution{
+    width:750px;
+    height: auto;
+   }*/
