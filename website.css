@@ -86,3 +86,9 @@ h2{
     color: greenyellow;
     text-align: center;
   }
+a#codeacademy:link, a#codeacademy:visited{
+  color:#FFF;
+}
+a#codeacademy:hover, a#codeacademy:active{
+  color: greenyellow;
+}
