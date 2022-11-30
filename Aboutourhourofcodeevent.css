@@ -42,7 +42,7 @@ a#bar:link, a#bar:visited {
   
   a#bar:hover, a#bar:active {
     background-color: greenyellow;
-    color: white;
+    color: black;
   }
 
   header#bar2 {
